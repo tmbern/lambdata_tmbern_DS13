@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-pip install ____________ # enter url here
+pip install https://test.pypi.org/project/my-lambdata-tmbern-Unit3/1.0/ 
 ```
 
 ## Usage
