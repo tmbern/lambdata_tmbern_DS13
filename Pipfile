@@ -10,6 +10,7 @@ twine = "*"
 pandas = "*"
 numpy = "*"
 scipy = "*"
+uszipcode = "*"
 
 [requires]
 python_version = "3.7"
