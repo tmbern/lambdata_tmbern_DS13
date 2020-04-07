@@ -8,6 +8,10 @@ def check_for_nulls(df):
 
 # Function to split dates ("MM/DD/YYYY", etc.) into multiple columns
 
+
+
+
+
 def split_dates(df, column):
     
     # create a copy to prevent copy warnings
