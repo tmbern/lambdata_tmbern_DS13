@@ -2,7 +2,7 @@ import pandas
 
 class SplitDates():
     """
-    takes a column of dates and returns new columns of year, month, and day.
+    takes a dataframe with column of dates and returns new columns of year, month, and day.
 
     """
     def __init__(self, my_df, my_column):
