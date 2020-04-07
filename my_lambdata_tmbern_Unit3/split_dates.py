@@ -1,5 +1,15 @@
 def split_dates(df, column):
     
+    """
+    Inputs: df - a pandas DataFrame
+            column - a pandas Series in df
+            
+    Assumes column contains datetime information
+    
+    Returns: pandas DataFrame with additional 
+    columns for "Month", "Day", and "Year" attributes. 
+    """
+    
     # create a copy to prevent copy warnings
     df = df.copy()
 
