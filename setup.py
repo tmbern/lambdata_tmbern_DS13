@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="my_lambdata_tmbern_Unit3", # the name that you will install via pip
-    version="1.0.1",
+    version="1.0.2",
     author="Trent",
     author_email="your@email.com",
     description="A short description",
