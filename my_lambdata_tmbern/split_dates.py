@@ -27,7 +27,8 @@ class SplitDates():
         return(self.my_df)
 
 
-
+    # def __repr__(self):
+    #     return "SplitDates('{}', '{}')".format(self.my_df, self.my_column)
 
 
 if __name__ == "__main__":
@@ -35,6 +36,6 @@ if __name__ == "__main__":
     df = pandas.DataFrame({"Date": ['01/01/2020', '01/03/2020', '01/05/2020', '01/05/2020']})
 
     df = SplitDates(df, 'Date')
-    
+    # print(df)    
     print(df.split_dates().head())
     print(df.split_dates().columns.to_list())
