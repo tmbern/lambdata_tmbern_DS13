@@ -5,11 +5,13 @@ verify_ssl = true
 
 [dev-packages]
 twine = "*"
+pytest = "*"
 
 [packages]
 pandas = "*"
 numpy = "*"
 scipy = "*"
+uszipcode = "*"
 
 [requires]
 python_version = "3.7"
