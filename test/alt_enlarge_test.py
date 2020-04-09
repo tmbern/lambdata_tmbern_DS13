@@ -1,4 +1,4 @@
-from my_lambdata_tmbern.enlarge import enlarge
+from ..my_lambdata_tmbern.enlarge import enlarge
 
 def test_upper():
     assert enlarge(3) == 300

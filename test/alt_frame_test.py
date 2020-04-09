@@ -1,5 +1,5 @@
 
-from my_lambdata_tmbern.class3 import CustomFrame
+from ..my_lambdata_tmbern.class3 import CustomFrame
 
 def test_name_conversion():
     # self.assertEqual(enlarge(3), 300)

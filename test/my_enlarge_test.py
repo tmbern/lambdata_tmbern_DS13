@@ -1,6 +1,6 @@
 
 import unittest
-from my_lambdata_tmbern.enlarge import enlarge
+from ..my_lambdata_tmbern.enlarge import enlarge
 
 class TestEnlarge(unittest.TestCase):
 
