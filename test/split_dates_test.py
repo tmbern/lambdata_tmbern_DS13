@@ -1,6 +1,6 @@
 import unittest
 import pandas
-from ..my_lambdata_tmbern.split_dates import SplitDates
+from my_lambdata_tmbern.split_dates import SplitDates
 
 class TestSplitDates(unittest.TestCase):
 
