@@ -5,7 +5,6 @@ class SplitDates():
     """
     takes a dataframe with column of dates and returns new columns of year,
     month, and day.
-
     """
     def __init__(self, my_df, my_column):
         self.my_df = my_df
@@ -33,10 +32,9 @@ class SplitDates():
 
 if __name__ == "__main__":
 
-    df = pandas.DataFrame(
-        {"Date": ['01/01/2020', '01/03/2020', '01/05/2020', '01/05/2020']}
-    )
+    df = pandas.DataFrame({"Date": ['01/01/2020', '01/03/2020', '01/05/2020', '01/05/2020']})
 
     df = SplitDates(df, 'Date')
-    print(df.split_dates().head())
     
+    print(df.split_dates().head())
+    print(df.split_dates().columns.to_list())
