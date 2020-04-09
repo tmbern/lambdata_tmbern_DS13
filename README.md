@@ -9,13 +9,16 @@ pip install https://test.pypi.org/project/my-lambdata-tmbern-Unit3/1.0.3/
 ```
 
 ## Usage
-```must first have pip install uszipcode for ZipCode class to function properly
+```
+must first have pip install uszipcode for ZipCode class to function properly
 ```
 
 
-```dataframe =  ZipCodes(my_dataframe, 'latitude', 'longitude').get_zip_code_df()
+```
+dataframe =  ZipCodes(my_dataframe, 'latitude', 'longitude').get_zip_code_df()
 ```
 
 
-```dataframe = SplitDates(df, 'Date').split_dates()
+```
+dataframe = SplitDates(df, 'Date').split_dates()
 ```
