@@ -1,6 +1,6 @@
 
 import unittest
-from ..my_lambdata_tmbern.class3 import CustomFrame
+from my_lambdata_tmbern.class3 import CustomFrame
 
 class TestCustomFrame(unittest.TestCase):
 
